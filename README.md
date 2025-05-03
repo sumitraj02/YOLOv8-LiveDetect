@@ -26,7 +26,17 @@ This is a real-time object detection web application built with **YOLOv8**, **Fl
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Screenshots
+
+Here are a few screenshots of the running project:
+
+### 🔹 Live Camera Feed & UI
+
+<img src="YOLOv8-LiveDetect/Screenshots/Screenshot 2025-05-03 152508.png" width="400"/>
+<img src="YOLOv8-LiveDetect/Screenshots/Screenshot 2025-05-03 152641.png" width="400"/>
+
+<img src="YOLOv8-LiveDetect/Screenshots/Screenshot 2025-05-03 152758.png" width="400"/>
+<img src="YOLOv8-LiveDetect/Screenshots/Screenshot 2025-05-03 153024.png" width="400"/>
 
 ---
 
@@ -36,18 +46,22 @@ This is a real-time object detection web application built with **YOLOv8**, **Fl
 
 git clone https://github.com/sumitraj02/YOLOv8-LiveDetect.git
 cd yolov8-live-detection
+### 2. Install Dependencies
 pip install -r requirement.txt
 
-##Connect ip webcam
+
+### 3. Connect ip webcam
 Connect Your Phone's IP Webcam
 Use the IP Webcam Android app
 Start the stream and note the video URL (e.g., http://192.168.1.x:8080/video)
 Update the camera_url in app.py accordingly.
 
-
+### 4. Run the Flask App
 puthon app.py
 
-Access your web app here
+### 5. 🌐 Access the Web App
 http://localhost:5000
-
+---
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
